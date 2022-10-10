@@ -1,24 +1,3 @@
-# Ninja 
-
-支持CK注册，登录和删除，支持WSKEY录入和删除，登录成功进入个人中心，可修改备注。默认登录CK才可提交WSCK，主页提交WSCK容易乱，不建议。
-
-基本功能已完善，鸽几天，有问题先仔细看此README。
-
-## 致谢
-
-感谢Ninja原作者：@MoonBegonia
-
-仓库地址：https://github.com/MoonBegonia/ninja
-
-感谢WSCK功能原作者：@huiyi9420
-
-仓库地址：https://github.com/huiyi9420/ninja
-
-## 新
-
-当前：增加备用接口（针对某些半黑号）
-
-新特性：支持Github Action前端编译并自动替换文件。Fork之后：Action->BuildAndCommit->Run workflow->Run workflow即可。
 
 ## 说明
 
@@ -102,7 +81,7 @@ docker exec -it qinglong bash
    **进容器内执行以下命令**
 
    ```bash
-   git clone https://github.com/Waikkii/waikiki_ninja.git /ql/ninja
+   git clone https://github.com/Serendipper-1/ninja.git /ql/ninja
    cd /ql/ninja/backend
    pnpm install
    cp .env.example .env # 如有需要, 修改.env
